@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard Study</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Flashcard Study</h1>
+  </header>
+
+  <main>
+    <!-- Form to add new flashcards -->
+    <section id="add-card-section">
+      <h2>Add a New Flashcard</h2>
+      <form id="card-form">
+        <input type="text" id="front-input" placeholder="Front (Word)" required>
+        <input type="text" id="back-input" placeholder="Back (Definition)" required>
+        <button type="submit">Add Card</button>
+      </form>
+    </section>
+
+    <!-- Flashcards display -->
+    <section id="flashcards">
+      <h2>Your Flashcards</h2>
+      <div id="card-container">
+        <!-- Flashcards will appear here -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
